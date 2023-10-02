@@ -9,7 +9,46 @@ const questions = [
         choices: ["Madrid", "Rome", "Berlin", "Paris"],
         correctAnswer: "Paris"
     },
-    // Add more questions in the same format
+    {
+        question: "Question 3: Entemology is the science that studies?",
+        choices: ["Behaviour of human beings", "Insects", "Animals", "Birds"],
+        correctAnswer: "Insects"
+    },
+    {
+        question: "question 4: Fastest shorthand writer was?",
+        choices: ["DR.G.D.Bist", "J.R.D.Tata", "J.M.Tagore", "Khudada Khan"],
+        correctAnswer: "DR.G.D.Bist"
+    },
+    {
+        question: "question 5: Epsom is the place associated with?",
+        choices: ["Horse racing", "Polo", "Shooting", "Snooker"],
+        correctAnswer: "Horse racing"
+    },
+    {
+        question: "question 6: For galvanizing iron which of the following metals is used?",
+        choices: ["Aluminium", "Copper", "Lead", "Zinc"]
+        correctAnswer: "Zinc"
+    },
+    {
+        question: "question 7: Guwahati High Court is the judicature of?",
+        choices: ["Nagaland", "Arunachal Pradesh", "Assam", "All of the above"],
+        correctAnswer: "All of the above"
+    },
+    {
+        question: "question 8: The ozone layer restricts?",
+        choices: ["Visible light", "IR rays", "X-rays and gamma rays", "UV rays"],
+        correctAnswer: "UV rays"
+    },
+    {
+        question: "question 9: Filaria is caused by?",
+        choices: ["Bacteria", "Mosquito", "Protozoa", "Virus"],
+        correctAnswer: "Mosquito"
+    },
+    {
+        question: "question 10: Fathometer is used to measure?",
+        choices: ["Earthquakes", "Rainfall", "Ocean depth", "Sound intensity"],
+        correctAnswer: "Ocean depth"
+    }
 ];
 
 let currentQuestion = 0;
